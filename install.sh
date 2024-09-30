@@ -1,5 +1,13 @@
 # Install the required APT packages.
-sudo apt install --assume-yes pipx fonts-roboto
+sudo apt install --assume-yes \
+  pipx \
+  fonts-roboto \
+  flatpak \
+  gnome-software-plugin-flatpak
+
+# Add Flathub Flatpak repository.
+flatpak remote-add --if-not-exists flathub \
+  https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Install the required Flatpak packages.
 flatpak install --assumeyes flathub com.brave.Browser
