@@ -1,6 +1,10 @@
 # Install the required APT packages.
 sudo apt install --assume-yes pipx fonts-roboto
 
+# Install the required Flatpak packages.
+flatpak install --assumeyes flathub com.brave.Browser
+flatpak install --assumeyes flathub org.onlyoffice.desktopeditors
+
 # Add ~/.local/bin to environment variables.
 pipx ensurepath
 export PATH=$PATH:~/.local/bin
