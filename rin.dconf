@@ -1,3 +1,7 @@
+[org/gnome/Totem]
+active-plugins=['screenshot', 'skipto', 'variable-rate', 'mpris', 'vimeo', 'apple-trailers', 'recent', 'screensaver', 'open-directory', 'rotation', 'autoload-subtitles', 'movie-properties', 'save-file']
+subtitle-encoding='UTF-8'
+
 [org/gnome/control-center]
 last-panel='info-overview'
 window-state=(980, 640, false)
@@ -73,7 +77,7 @@ initial-size=(890, 550)
 [org/gnome/shell]
 disabled-extensions=@as []
 enabled-extensions=['arcmenu@arcmenu.com', 'caffeine@patapon.info', 'gsconnect@andyholmes.github.io', 'no-overview@fthx', 'dash-to-panel@jderose9.github.com', 'ding@rastersoft.com']
-favorite-apps=['org.gnome.Software.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'firefox-esr.desktop']
+favorite-apps=['org.gnome.Software.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'com.brave.Browser.desktop', 'org.onlyoffice.desktopeditors.desktop']
 welcome-dialog-last-shown-version='43.9'
 
 [org/gnome/shell/extensions/arcmenu]
@@ -141,6 +145,7 @@ show-volumes=false
 locations=@av []
 
 [org/gnome/software]
+check-timestamp=int64 1727712214
 first-run=false
 
 [org/gnome/system/location]
