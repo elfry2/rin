@@ -1,8 +1,8 @@
 # rin
-Just another Debian GNOME configuration that tries to be right.
+A Debian GNOME configuration that tries to feel right (to me lol).
 
-![Screenshot from 2024-07-21 01-41-48](https://github.com/user-attachments/assets/bf01ccb3-5b45-4829-ba3f-59f0383bfa39)
-![Screenshot from 2024-07-21 01-41-56](https://github.com/user-attachments/assets/01d552da-3060-4cbe-8bc6-0e7195d8d6ae)
+![Screenshot from 2024-09-30 23-26-04](https://github.com/user-attachments/assets/d70c9d92-1814-4397-be37-0c23f43384bb)
+![Screenshot from 2024-09-30 23-26-14](https://github.com/user-attachments/assets/ac47cf2b-9c10-40e7-bd1e-f4e048f808a7)
 
 The wallpaper was found on https://wall.alphacoders.com/big.php?i=979813.
 
