@@ -1,4 +1,5 @@
 # Install the required APT packages.
+sudo apt update
 sudo apt install --assume-yes \
   pipx \
   fonts-roboto \
