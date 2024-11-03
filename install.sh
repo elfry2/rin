@@ -62,5 +62,5 @@ sudo wget -O "${wallpaper_output_file_path}" "${wallpaper_url}"
 echo "Wallpaper saved to ${wallpaper_output_file_path}."
 
 # Apply Rin GNOME Shell configuration.
-dconf load -f / <rin.dconf
-echo "Rin installed."
+dconf load -f / < rin.dconf
+echo "Rin installed. If something didn't seem to work correctly, you might need to reboot and run this script again."
