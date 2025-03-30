@@ -14,16 +14,16 @@ flatpak remote-add --if-not-exists flathub \
 flatpak install --assumeyes flathub com.brave.Browser
 flatpak install --assumeyes flathub org.onlyoffice.desktopeditors
 
+# Install daru.
+git clone https://github.com/elfry2/daru
+cd daru
+./install.sh
+cd ..
+rm -rvf daru
+
 # Add ~/.local/bin to environment variables.
 pipx ensurepath
 export PATH=$PATH:~/.local/bin
-
-# Install RobotoMono Nerd Font.
-curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/RobotoMono.zip
-sudo mkdir -p /usr/share/fonts/truetype/roboto-mono-nerd
-sudo unzip -o RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
-sudo fc-cache -fv
-rm -v RobotoMono.zip
 
 # Install adw-gtk3 GTK3 theme.
 adw_gtk3_url=$(curl -s https://api.github.com/repos/lassekongo83/adw-gtk3/releases/latest | jq --raw-output '.assets[0] | .browser_download_url')
